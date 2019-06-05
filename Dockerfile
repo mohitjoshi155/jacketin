@@ -48,7 +48,7 @@ RUN \
 	/var/tmp/*
 
 # add local files
-# COPY root/ /
+COPY root/ /
 
 # ports and volumes
 VOLUME /config /downloads
