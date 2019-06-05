@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: exec /app/Jackett/jackett --NoUpdates
+  web: exec /app/Jackett/jackett --NoUpdates --p 9117:$PORT
