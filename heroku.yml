@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: bundle exec s6-setuidgid abc /app/Jackett/jackett --NoUpdates
+  web: exec s6-setuidgid abc /app/Jackett/jackett --NoUpdates
