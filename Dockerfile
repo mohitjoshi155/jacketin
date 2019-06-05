@@ -40,6 +40,13 @@ RUN \
 	/app/Jackett --strip-components=1 && \
  echo "**** fix for host id mapping error ****" && \
  chown -R root:root /app/Jackett && \
+ echo "**** create abc user and make our folders ****" && \
+ useradd -u 911 -U -d /config -s /bin/false abc && \
+ usermod -G users abc && \
+ mkdir -p \
+	/app \
+	/config \
+	/defaults && \
  echo "**** cleanup ****" && \
  apt-get clean && \
  rm -rf \
