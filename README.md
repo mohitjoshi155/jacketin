@@ -7,6 +7,7 @@ Clone this repo in your machine, and use those coomands after install de [Heroku
 ```bash
   heroku login
   heroku create your-app-name
+  heroku stack:set container
   git add
   git commit -m "First Commit"
   git push heroku master
