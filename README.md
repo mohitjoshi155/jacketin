@@ -8,6 +8,8 @@ Clone this repo in your machine, and use those coomands after install de [Heroku
   heroku login
   heroku create your-app-name
   heroku stack:set container
+  heroku container:push web
+  heroku container:release web
   git add
   git commit -m "First Commit"
   git push heroku master
