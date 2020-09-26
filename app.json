@@ -1,0 +1,6 @@
+{
+  "name": "Jackett",
+  "description": "A Jackett Heroku",
+  "repository": "https://github.com/alamia442/jackett",
+  "stack": "container"
+}
