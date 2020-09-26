@@ -7,7 +7,7 @@ ARG JACKETT_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 
-# environment settings
+# environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
 ENV XDG_DATA_HOME="/config" \
 XDG_CONFIG_HOME="/config"
@@ -44,8 +44,7 @@ RUN \
 	/var/lib/apt/lists/* \
 	/var/tmp/*
 
-RUN usermod -u 1000 abc && groupmod -g 1000 abc
-# add local files
+# add local files
 COPY root/ /
 
 # ports and volumes
