@@ -44,9 +44,6 @@ RUN \
 	/var/lib/apt/lists/* \
 	/var/tmp/*
 
-# add local files
-COPY root/ /
-
 # ports and volumes
 VOLUME /config
 EXPOSE 9117
