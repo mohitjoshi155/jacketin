@@ -1,9 +1,9 @@
 #!/usr/bin/with-contenv bash
 
-chown -R abc:abc \
+chown -R root:root \
 	/config
 
 if [ -z ${AUTO_UPDATE+x} ] || [ "${AUTO_UPDATE}" == "true" ]; then
-	chown -R abc:abc \
+	chown -R root:root \
 		/app/Jackett
 fi
