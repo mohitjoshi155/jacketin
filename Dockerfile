@@ -44,6 +44,7 @@ RUN \
 	/var/lib/apt/lists/* \
 	/var/tmp/*
 
+RUN usermod -u 1000 abc && groupmod -g 1000 abc
 # add local files
 COPY root/ /
 
