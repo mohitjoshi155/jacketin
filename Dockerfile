@@ -5,12 +5,7 @@ ARG BUILD_DATE
 ARG VERSION
 ARG JACKETT_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="sparklyballs"
-
-# arch settings, uncomment as neccesary
-ARG JACKETT_ARCH="LinuxAMDx64"
-# ARG JACKETT_ARCH="LinuxARM32"
-# ARG JACKETT_ARCH="LinuxARM64"
+LABEL maintainer="thelamer"
 
 # environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
@@ -34,12 +29,14 @@ RUN \
  fi && \
  curl -o \
  /tmp/jacket.tar.gz -L \
-	"https://github.com/Jackett/Jackett/releases/download/${JACKETT_RELEASE}/Jackett.Binaries.${JACKETT_ARCH}.tar.gz" && \
+	"https://github.com/Jackett/Jackett/releases/download/${JACKETT_RELEASE}/Jackett.Binaries.LinuxAMDx64.tar.gz" && \
  tar xf \
  /tmp/jacket.tar.gz -C \
 	/app/Jackett --strip-components=1 && \
  echo "**** fix for host id mapping error ****" && \
  chown -R root:root /app/Jackett && \
+ echo "**** save docker image version ****" && \
+ echo "${VERSION}" > /etc/docker-image && \
  echo "**** cleanup ****" && \
  apt-get clean && \
  rm -rf \
@@ -51,5 +48,5 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-VOLUME /config /downloads
+VOLUME /config
 EXPOSE 9117
