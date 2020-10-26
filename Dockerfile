@@ -44,6 +44,6 @@ RUN \
 	/var/lib/apt/lists/* \
 	/var/tmp/*
 
-# ports and volumes
-VOLUME /config
+COPY ./config /config
+# ports
 EXPOSE 9117
