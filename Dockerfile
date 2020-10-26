@@ -10,7 +10,8 @@ LABEL maintainer="thelamer"
 # environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
 ENV XDG_DATA_HOME="/config" \
-XDG_CONFIG_HOME="/config"
+XDG_CONFIG_HOME="/config" \
+PORT=9117
 
 RUN \
  echo "**** install packages ****" && \
@@ -45,5 +46,3 @@ RUN \
 	/var/tmp/*
 
 COPY ./config /config
-# ports
-EXPOSE 9117
