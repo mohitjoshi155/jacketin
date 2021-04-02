@@ -3,18 +3,18 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://eztv.re/"
+    "value": "https://torrentview28.com/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "__cfduid=d304c4ec9cb54fda76550f64ae62fbaa51611132469; PHPSESSID=58607630c5312d33db670b58e196102d"
+    "value": "__cfduid=da91b152f20720a043ecaab9079a22c8e1611132471; PHPSESSID=42l5qcfm4lukp5h02g1thd2bt2; 2a0d2363701f23f8a75028924a3af643=NS43OS43NS45"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": ""
   }
 ]

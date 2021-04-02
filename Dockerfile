@@ -1,5 +1,5 @@
-FROM lsiobase/ubuntu:bionic
-
+FROM ghcr.io/linuxserver/baseimage-ubuntu:bionic
+WORKDIR /app
 # set version label
 ARG BUILD_DATE
 ARG VERSION
@@ -7,7 +7,7 @@ ARG JACKETT_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 
-# environment settings
+# environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
 ENV XDG_DATA_HOME="/config" \
 XDG_CONFIG_HOME="/config" \
@@ -46,3 +46,5 @@ RUN \
 	/var/tmp/*
 
 COPY ./config /config
+
+CMD exec /app/Jackett/jackett --NoRestart --NoUpdates -p $PORT

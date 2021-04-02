@@ -3,46 +3,39 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://torrentgalaxy.to/"
+    "value": "https://zooqle.unblockit.ltd/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "pass=deleted; uid=deleted; PHPSESSID=1dffjmd9j5dg644730ii47v617"
+    "value": "__cfduid=de8a3e4c603401957e78e74ac2238d04e1611132585"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": "Exception (zooqle): Challenge detected but FlareSolverr is not configured: Challenge detected but FlareSolverr is not configured"
   },
   {
     "id": "sortrequestedfromsite",
     "type": "inputselect",
     "name": "Sort requested from site",
-    "value": "id",
+    "value": "dt",
     "options": {
-      "id": "created",
-      "seeders": "seeders",
-      "size": "size",
-      "name": "title"
+      "dt": "created",
+      "ns": "seeders",
+      "sz": "size"
     }
   },
   {
     "id": "orderrequestedfromsite",
     "type": "inputselect",
     "name": "Order requested from site",
-    "value": "desc",
+    "value": "d",
     "options": {
-      "desc": "desc",
-      "asc": "asc"
+      "d": "desc",
+      "a": "asc"
     }
-  },
-  {
-    "id": "captchatext",
-    "type": "inputstring",
-    "name": "Captcha Text",
-    "value": null
   }
 ]

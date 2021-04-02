@@ -9,13 +9,13 @@
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": ""
+    "value": "__cfduid=da2d8fb00aeb66eb7b305bf255f678fcd1611132470; PHPSESSID=civ4su8kbsfsdukg54m4uknefm; pass=deleted; uid=deleted"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": ""
+    "value": null
   },
   {
     "id": "sortrequestedfromsite",

@@ -3,30 +3,29 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://torrentgalaxy.to/"
+    "value": "https://www.torlock.com/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "pass=deleted; uid=deleted; PHPSESSID=1dffjmd9j5dg644730ii47v617"
+    "value": "__cfduid=d76bcd27a702a9ed38fd0650b784dd2671611132470"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": ""
   },
   {
-    "id": "sortrequestedfromsite",
+    "id": "sortrequestedfromsite(onlyworksforsearchwithkeywords)",
     "type": "inputselect",
-    "name": "Sort requested from site",
-    "value": "id",
+    "name": "Sort requested from site (only works for search with keywords)",
+    "value": "added",
     "options": {
-      "id": "created",
-      "seeders": "seeders",
-      "size": "size",
-      "name": "title"
+      "added": "created",
+      "seeds": "seeders",
+      "size": "size"
     }
   },
   {
@@ -38,11 +37,5 @@
       "desc": "desc",
       "asc": "asc"
     }
-  },
-  {
-    "id": "captchatext",
-    "type": "inputstring",
-    "name": "Captcha Text",
-    "value": null
   }
 ]

@@ -3,19 +3,19 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://torrentgalaxy.to/"
+    "value": "https://www.ettvcentral.com/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "pass=deleted; uid=deleted; PHPSESSID=1dffjmd9j5dg644730ii47v617"
+    "value": "__cfduid=da2d8fb00aeb66eb7b305bf255f678fcd1611132470; PHPSESSID=civ4su8kbsfsdukg54m4uknefm; pass=deleted; uid=deleted"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": ""
   },
   {
     "id": "sortrequestedfromsite",
@@ -38,11 +38,5 @@
       "desc": "desc",
       "asc": "asc"
     }
-  },
-  {
-    "id": "captchatext",
-    "type": "inputstring",
-    "name": "Captcha Text",
-    "value": null
   }
 ]

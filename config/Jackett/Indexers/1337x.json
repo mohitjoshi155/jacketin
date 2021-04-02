@@ -3,19 +3,19 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://1337.root.yt/"
+    "value": "https://1337x.to/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": ""
+    "value": "__cfduid=d2c97b22e2b3d13bd46f56a676ebb6f541611132469"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": ""
+    "value": null
   },
   {
     "id": "downloadlink",
@@ -24,8 +24,6 @@
     "value": "magnet:",
     "options": {
       "http://itorrents.org/": "iTorrents.org",
-      "http://torrage.info/": "Torrage.info",
-      "http://btcache.me/": "BTcache.me",
       "magnet:": "magnet"
     }
   },

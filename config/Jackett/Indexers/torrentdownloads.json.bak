@@ -3,29 +3,28 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://rarbg.to/"
+    "value": "https://www.torrentdownloads.info/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "__cfduid=db22ce3153a8c0dda39f0dd9eda9a97351611132563"
+    "value": "__cfduid=dc208f003e33733ad40b26ea2d86edb361611132470"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": ""
   },
   {
-    "id": "sortrequestedfromsite",
+    "id": "downloadlink",
     "type": "inputselect",
-    "name": "Sort requested from site",
-    "value": "last",
+    "name": "Download link",
+    "value": "magnet:",
     "options": {
-      "last": "created",
-      "seeders": "seeders",
-      "leechers": "leechers"
+      "http://itorrents.org/": "iTorrents.org",
+      "magnet:": "magnet"
     }
   }
 ]
