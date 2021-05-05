@@ -1,10 +1,9 @@
-{
- {
+
+  {
   "name": "Jackett",
   "description": "A Jackett Heroku",
   "repository": "https://github.com/mohitjoshi155/jacketin",
   "stack": "container"
-},
   "addons": [
     {
       "plan": "heroku-postgresql",
