@@ -2,7 +2,7 @@
  {
   "name": "Jackett",
   "description": "A Jackett Heroku",
-  "repository": "https://github.com/alamia442/jackett",
+  "repository": "https://github.com/mohitjoshi155/jacketin",
   "stack": "container"
 },
   "addons": [
