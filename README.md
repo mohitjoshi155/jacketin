@@ -16,3 +16,14 @@ Clone this repo in your machine, and use those coomands after install de [Heroku
   git commit -m "First Commit"
   git push heroku master
 ```
+Can Be Deployed on render as well
+```
+open Render.com & create an account
+go to dashboard & click on new "web service"
+either connect your git or add link to your forked repo
+fill the details
+and click on create web service 
+and it will start deploying
+above logs box you can see your deployed app url
+click on it and viola your jackett running on render
+```
