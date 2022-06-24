@@ -6,7 +6,7 @@
 
 ### OR Via CLI
 
-Clone this repository and use those commands after installing [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+Clone this repository and use these commands after installing [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 
 ```bash
 heroku login
