@@ -21,9 +21,11 @@ git push heroku master
 ```
 # Render
 
-TestING
+### Click on the Deploy Button Below
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/notabhixhek/JackettX)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/mohitjoshi155/jacketin)
+
+### OR Manually (Recommended)
 
 ˃ Fork this Repository <br>
 ˃ Open [Render](https://render.com/) && Create an account <br>
