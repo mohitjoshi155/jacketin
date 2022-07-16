@@ -1,0 +1,8 @@
+services:
+  # A Docker web service
+  - type: web
+    name: jacketin
+    env: docker
+    repo: https://github.com/mohitjoshi155/jacketin # optional
+    region: oregon # optional (defaults to oregon)
+    plan: free # optional (defaults to starter)

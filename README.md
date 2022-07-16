@@ -20,6 +20,11 @@ git commit -m "First Commit"
 git push heroku master
 ```
 # Render
+
+TestING
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/notabhixhek/JackettX)
+
 ˃ Fork this Repository <br>
 ˃ Open [Render](https://render.com/) && Create an account <br>
 ˃ Open Dashboard && Click on new Web Service <br>
