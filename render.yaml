@@ -1,6 +1,7 @@
 services:
   # A Docker web service
   - type: web
+    name: Jackett
     env: docker
     repo: https://github.com/mohitjoshi155/jacketin # optional
     region: oregon # optional (defaults to oregon)
